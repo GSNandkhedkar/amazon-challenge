@@ -42,7 +42,7 @@ function Header() {
             className='header_option'>
                 <span
                     className='header_optionLineOne'>
-                        Hello Guest
+                        Hello {user ? user?.email :'Guest'}
                 </span>
                 <span
                     className='header_optionLineTwo'>
